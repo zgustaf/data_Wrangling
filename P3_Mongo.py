@@ -1,7 +1,6 @@
 # coding: utf-8
-data_Wrangling
-Udacity
-#this is what I have so far and it's throwing an error..
+'''the vast majority of this code was barrowed and tweeked from the Udacity
+forums and the rest is taken from the classes I have taken on their amazing website'''
 import xml.etree.cElementTree as ET
 import re
 from pprint import pprint
