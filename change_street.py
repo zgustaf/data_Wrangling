@@ -1,3 +1,4 @@
+'''This was taken directly from the Data Wrangling with MongoDB from the Udacity class I took'''
 import xml.etree.cElementTree as ET
 from collections import defaultdict
 import re
