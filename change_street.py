@@ -52,3 +52,5 @@ def update_name(name, mapping):
         if street_type not in expected:
             name = re.sub(street_type_re, mapping[street_type], name)
     return name
+if __name__ = '__main__":
+    audit(osmfile)
