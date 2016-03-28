@@ -8,7 +8,7 @@ from collections import defaultdict
 import json
 import codecs
 
-osm_file = open("sample.osm", "r")
+osm_file = "sample.osm"
 
 lower = re.compile(r'^([a-z]|_)*$')
 lower_colon = re.compile(r'^([a-z]|_)*:([a-z]|_)*$')
@@ -40,7 +40,7 @@ def audit_street_type(street_types, street_name):
     if m:
         street_type = m.group()
         if street_type not in expected:
-            street_types[street_type].add(street_name)
+            street_types[street_type].append(street_name)
 
 
 def is_street_name(element):
